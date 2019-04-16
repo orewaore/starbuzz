@@ -75,3 +75,25 @@ div#tableRow{
   padding: 15px;
   vertical-align: top;
 }
+.headerImageLeft{
+  position:absolute;
+  z-index: 2;
+  display: inline-block;
+  float: left;
+  background-image: url(images/header.gif);
+  width: 400px;
+  height:100px;
+}
+.headerImageright{
+  display: inline-block;
+  float:right;
+  background-image: url(images/header.gif);
+  width: 400px;;
+  height:100px;
+  background-position: -400px,0px;
+}
+#award{
+  position: absolute;
+  top:30px;
+  left:365px;
+}
