@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <p id='amao'>我是出轰党</p>
+  <script>
+  document.write("<h1>hello world!</h1>")
+  var a=10
+  var b=50
+  document.write( a + b)
+  document.write('<br>')
+  var i=0
+  while (i <=88)
+  {
+    document.write( i +'<br>')
+    i++
+  }
+  document.write('<br>')
+  var x= 20;
+  if (x>20){
+    document.write('x是一个大于20的数')
+  }
+  else{
+    document.write('x是一个小于等于20的数')
+  }
+
+  document.getElementById('amao').innerHTML = '我才是轰出党'
+  function kajiang(x , y) {
+    if (x > y) {
+      return x
+    } else {
+      return y
+      }
+    }
+    document.write(kajiang(4,55))
+    document.write('<br>')
+    document.write(kajiang(4,55555))
+    document.write('<br>')
+    document.write(kajiang(4,346565))
+    document.write('<br>')
+    document.write(kajiang(4,7777))
+    document.write('<br>')
+    document.write(kajiang(666,55))
+
+    document.write( '<br>' + Math.random())
+    document.write( '<br>' + Math.floor(Math.random() * 15))
+  </script>
+</body>
+</html>
