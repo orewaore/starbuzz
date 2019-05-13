@@ -11,14 +11,19 @@
     var person =['小沈','佳伊']
     var ground =['教室','小树林']
     var thing =['举高高','做羞耻的事']
-    function foo(dogfood){
-      console.log(dogfood)
+    function foo(dog){
+      i = Math.floor(Math.random()*dog.length)
+      console.log(dog[i])
     }
-    var p,g,t;
-    p=Math.floor(Math.random()*person.length)
-    g=Math.floor(Math.random()*ground.length)
-    t=Math.floor(Math.random()*thing.length)
-    document.write(person[p]+'在'+ground[g]+thing[t])
+    foo(person)
+    foo(ground)
+    foo(thing)
+    
+    //var p,g,t;
+    //p=Math.floor(Math.random()*person.length)
+    //g=Math.floor(Math.random()*ground.length)
+   // t=Math.floor(Math.random()*thing.length)
+    //document.write(person[p]+'在'+ground[g]+thing[t])
 
   </script>
 
